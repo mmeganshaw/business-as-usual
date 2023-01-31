@@ -1,3 +1,49 @@
+/* darkest green #0A1F0F */
+/* evergreen - #176225 */
+/* neon green #2AB746 */
+/* cantalope - #EDF7F0 */
+/* seastead blue - #194862 */
+/* lighter blue - #256A8F */
+
 html {
     font-size: 16px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #0A1F0F;
+}
+
+.btn {
+    background: #2AB746 !important;
+    color: white !important;
+}
+
+/* naviigation */
+
+.utility-nav {
+    background: #176225;
+    padding: 0.75rem;
+    color: white;
+}
+
+.utility-nav p {
+    color: white;
+}
+
+body .navbar {
+    background: #EDF7f0;
+    padding: 1.25rem; 
+}
+
+body .navbar a {
+    color: #0A1F0F; 
+}
+
+.copyright {
+    background: #194862;
+    color: white;
+    font-size: 0.75rem;
+    padding: 0.75rem;
 }
