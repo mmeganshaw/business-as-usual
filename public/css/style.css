@@ -288,7 +288,81 @@ body .navbar .navbar-brand img {
 
 /* Homepage Carousel */
 
-
 .carousel-homepage .carousel-item {
-    min-height: 70vh;
+    min-height: 537px;
+}
+.carousel-homepage .image{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.carousel-homepage .overlay {
+    background-color:rgba(0, 0, 0, 0.55);
+    position: absolute; 
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+.carousel-homepage .carousel-item .text-container {
+    z-index: 2;
+    color: white !important;
+    padding: 120px 0;
+}
+
+.carousel-homepage .carousel-item .text-container p {
+    color: white !important;
+}
+
+.carousel-homepage .carousel-item .text-container h2 {
+    font-size: 30px;
+    letter-spacing: 0.34px;
+    line-height: 55px;
+    margin-bottom: 0rem;
+    font-weight: 400;
+}
+
+.carousel-homepage .carousel-control-prev {
+    display: none;
+}
+
+.carousel-homepage .carousel-control-next {
+    display: none !important;
+}
+
+@media (min-width: 992px) {
+    .carousel-homepage .carousel-indicators {
+        left: unset;
+        display: block;
+        top: 180px;
+    }
+    .carousel-homepage .carousel-indicators li {
+        height: 15px;
+        width: 15px;
+        border-radius: 100%;
+        background-color: transparent;
+        border: 3px solid white;
+        margin-bottom: 15px;
+        opacity: 1;
+    }
+    .carousel-homepage .carousel-indicators li.active{
+        background-color: white;
+    }
+}
+@media (max-width: 991px) {
+    .carousel-homepage .carousel-indicators li {
+        height: 15px;
+        width: 15px;
+        border-radius: 100%;
+        background-color: transparent;
+        border: 3px solid white;
+        opacity: 1;
+    }
+    .carousel-homepage .carousel-indicators li.active{
+        background-color: white;
+    }
 }
