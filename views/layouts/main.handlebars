@@ -5,29 +5,87 @@
     <title>Business As Usual</title>
      <link href="/public/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="utility-nav w-100 d-flex">
         <div class="container d-flex justify-content-between">
              <div class="email-phone d-flex ">
-                <div class="phone d-flex align-items-center">
-                    <p class="m-0">440-452-6697</p>
+                <div class="phone">
+                    <a class="d-flex align-items-center" href="tel:4404526697">
+                        <img src="/public/images/phone.svg" alt="phone icon">
+                        <p class="d-none d-md-block">440-452-6697</p>
+                    </a>
                 </div>
                 <div class="email d-flex align-items-center">
-                    <p class="m-0">cdddschlunt@adelphia.net</p>
+                    <a class="d-flex align-items-center" href="mailto:cdddschlunt@adelphia.net">
+                        <img src="/public/images/mail.svg" alt="email icon">
+                        <p class="d-none d-md-block">cdddschlunt@adelphia.net</p>
+                    </a>
                 </div>
             </div>
             <div class="social">
-                <a>Facebook</a>
-                <a>Instagram</a>
-                <a>Nextdoor</a>
+                <a href="https://www.facebook.com/baulawncare/">
+                    <img class="facebook" src="/public/images/facebook-f.svg" alt="facebook icon">
+                </a>
+                <a href="https://www.instagram.com/business.as.usual.lawncare/?hl=en">
+                    <img class="instagram" src="/public/images/instagram.svg" alt="instagram icon">
+                </a>
+                 <a href="https://nextdoor.com/pages/business-as-usual-westlake-oh-1/">
+                    <img src="/public/images/NextDoor.png" alt="NextDoor icon">
+                </a>
             </div>
         </div>
     </div>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="/">Navbar</a>
+            <div class="row">
+                <div class="col-12">
+                     <a class="navbar-brand" href="/"><img src="/public/images/BAU.png" alt="business as usual logo"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Services
+                                </a>
+                                <div class="dropdown-menu">
+                                <a class="dropdown-item" href="/services/lawn-maintenance">Lawn Maintenance</a>
+                                <a class="dropdown-item" href="services/snow-removal">Snow Removal & Ice Control</a>
+                                <a class="dropdown-item" href="services/landscape-install">Landscape Installation</a>
+                                <a class="dropdown-item" href="services/landscape-design">Landscape Design</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/about">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/careers">Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/gallery">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contact">Contact</a>
+                            </li>
+                            <li class="nav-ite btn-nav">
+                                <a class="btn" href="/contact">Get Quote</a>
+                            </li>
+                           
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    {{!-- <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            
             <div class="items">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -36,7 +94,7 @@
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                            Dropdown link
+                            Services
                             </a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="/services/lawn-maintenance">Lawn Maintenance</a>
@@ -65,28 +123,51 @@
                 </div>
             </div>
         </div>  
-    </nav>
+    </nav> --}}
 
     {{{body}}}
 
-    <div class="footer w-100">
+    <footer class="footer w-100">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-3">
-                    Logo
+                <div class="col-12 col-lg-3 logo">
+                    <img src="/public/images/BAU-White.png" alt="business as usual white logo">
+                </div>
+                <div class="col-12 col-lg-3 offset-lg-1 info">
+                    <div class="contact">
+                        <a href="/contact"><h3>Contact Us</h3></a>
+                        <p class="address">28633 Hilliard Blvd
+                            </br>
+                            Westlake, OH 
+                        </p>
+                        <p class="phone">
+                            440-452-6697
+                        </p>
+                        <p class="email">
+                            cdddschlunt@adelphia.net
+                        </p>
+                    </div>
                 </div>
                 <div class="col-12 col-lg-3">
-
+                    <div class="services">
+                        <h3>Services</h3>
+                        <a href="/services/lawn-maintenance"><p>Lawn Maintenance</p></a>
+                        <a href="/services/snow-removal"><p>Snow Removal & Ice Control</p></a>
+                        <a href="/services/landscape-install"><p>Landscape Installation</p></a>
+                        <a href="/services/landscape-design"><p>Landscape Design</p></a>
+                    </div>
+                    
                 </div>
-                <div class="col-12 col-lg-3">
-
-                </div>
-                <div class="col-12 col-lg-3">
-
+                <div class="col-12 col-lg-2">
+                    <div class="extra">
+                        <a href="/about"><h3>About Us</h3></a>
+                        <a href="/careers"><h3>Careers</h3></a>
+                        <a href="/gallery"><h3>Gallery</h3></a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </footer>
     <div class="copyright w-100">
         <div class="container">
             <div class="row">
