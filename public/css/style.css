@@ -693,3 +693,46 @@ body .navbar .navbar-brand img {
         padding-right: 300px;
     }
 }
+
+
+.inner-banner {
+    min-height: 330px;
+    color: white;
+    display: flex; 
+    align-items: center;
+}
+
+.inner-banner.lighter-green {
+    background-color: #176426;
+}
+.inner-banner.darker-green {
+    background-color: #0F4319;
+}
+.inner-banner.lighter-blue {
+    background-color: #256A8F;
+}
+.inner-banner.darker-blue {
+    background-color: #194861;
+}
+.inner-banner.darker-blue hr,
+.inner-banner.lighter-blue hr{
+    border-top: 3px solid white;
+}
+
+.inner-banner p {
+    color: white;
+}
+
+.inner-banner .container {
+    padding: 2rem 0;
+}
+.inner-banner h1 {
+    font-size: 45px;
+    letter-spacing: 0.51px; 
+    line-height: 55px;
+}
+.inner-banner hr {
+    border-top: 3px solid #2AB746; 
+    width: 91px;
+    margin: 0.25rem 0 1rem;
+}
