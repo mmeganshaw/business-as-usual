@@ -166,6 +166,8 @@ body .navbar .navbar-brand img {
     
 }
 
+/* footer */
+
 .footer {
     background: #246A8F;
     padding: 4rem 0;
@@ -364,5 +366,64 @@ body .navbar .navbar-brand img {
     }
     .carousel-homepage .carousel-indicators li.active{
         background-color: white;
+    }
+}
+
+
+/* CTA Band */
+
+.cta-band {
+    padding: 44px 0;
+}
+
+.cta-band.darkgreen {
+    background-color: #0F4319;
+}
+
+.cta-band.lightgreen {
+    background-color: #176426;
+}
+
+.cta-band img {
+    height: 44px;
+    width: auto;
+    filter: invert(62%) sepia(58%) saturate(4509%) hue-rotate(92deg) brightness(105%) contrast(67%);
+    margin-right: 20px;
+}
+
+.cta-band .col-lg-3,
+.cta-band .col-lg-4 {
+    display: flex;
+    align-items: center;
+}
+
+
+.cta-band h4 {
+    font-size: 22px;
+    letter-spacing: 0.25px;
+    line-height: 35px;
+    color: white;
+}
+
+.cta-band h2 {
+    font-size: 38px;
+    letter-spacing: 0.43px;
+    line-height: 42px;
+    color: #2ab746;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.cta-band.darkgreen .btn {
+    background-color: #176426;
+}
+
+@media (max-width: 991px) {
+    .cta-band .col-lg-3 {
+        margin-bottom: 27px;
+        margin-top: 45px;
+    }
+    .cta-band .col-lg-4 {
+        margin-bottom: 1rem;
     }
 }
