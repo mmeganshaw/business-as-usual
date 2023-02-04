@@ -635,3 +635,61 @@ body .navbar .navbar-brand img {
     }
 }
 
+.interior-banner.services-yeah {
+    background-image: url('/public/images/slide-3.jpg');
+}
+
+.interior-banner.careers {
+    background-image: url('/public/images/careers.png');
+}
+
+.interior-banner.contact {
+    background-image: url('/public/images/contact.png');
+}
+
+.interior-banner.about {
+    background-image: url('/public/images/about.png');
+}
+
+.interior-banner {
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: -1;
+    display: flex; 
+    align-items: center;
+}
+
+.interior-banner .overlay {
+    background-color:rgba(0, 0, 0, 0.55);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+}
+
+.interior-banner .col-12 {
+    z-index: 1;
+    color: white;
+}
+.interior-banner p {
+    color: white;
+    font-size: 18px; 
+    line-height: 21px;
+    letter-spacing: 0.2px;
+}
+.interior-banner h1 {
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: 0.51px;
+    line-height: 55px;
+
+}
+
+@media (min-width: 992px) {
+    .interior-banner p {
+        padding-right: 300px;
+    }
+}
