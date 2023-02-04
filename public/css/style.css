@@ -427,3 +427,111 @@ body .navbar .navbar-brand img {
         margin-bottom: 1rem;
     }
 }
+
+/* Homepage Espot */
+
+.espot-homepage {
+    padding: 5rem 0;
+}
+.espot-homepage .card {
+    background-color: #176426;
+    border-radius: 25px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 2rem 24px;
+    display: inline-block;
+    margin-bottom: 22px;
+
+}
+.espot-homepage h2,
+.espot-homepage p {
+    color: white;
+    margin-top: 1rem;
+}
+
+.espot-homepage img {
+    height: 44px;
+    width: auto;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(347deg) brightness(101%) contrast(101%);
+}
+
+@media (min-width: 992px) {
+    .espot-homepage h2 {
+        max-width: 155px;
+    }
+}
+
+/* Homepage Two Column */
+
+.homepage-twocol {
+    padding-bottom: 5rem;
+}
+
+.homepage-twocol h3 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #3A9BCF;
+    letter-spacing: 0.34px;
+    line-height: 35px; 
+    margin-bottom: 1rem;
+}
+
+.homepage-twocol h2 {
+    font-size: 36px; 
+    letter-spacing: 0.4px;
+    line-height: 42px;
+    font-weight: 900;
+    padding-right: 40px;
+    margin-bottom: 1rem;
+
+}
+.homepage-twocol h2 span {
+    color: #2AB746;
+}
+
+.homepage-twocol p {
+    padding-right: 60px;
+    font-size: 19px;
+    letter-spacing: 0.22px;
+    line-height: 25px;
+    margin-bottom: 1rem;
+}
+
+.homepage-twocol a {
+    display: flex;
+    align-items: center;
+}
+
+.homepage-twocol a h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.23px;
+    line-height: 28px;
+    color: #246A8F;
+    margin-bottom: 0;
+}
+
+.homepage-twocol a img {
+    height: 71px;
+    width: 53px;
+    margin-right: 1rem;
+    filter: invert(32%) sepia(7%) saturate(6245%) hue-rotate(159deg) brightness(100%) contrast(79%);
+}
+
+@media (max-width: 991px) {
+    .homepage-twocol h3 {
+        margin-top: 2rem;
+        font-size: 24px;
+        line-height: 35px;
+    }
+    /* .homepage-twocol h2 {
+        font-size: 28px;
+        letter-spacing: 0.32px;
+        line-height: 36px;
+    }
+    .homepage-twocol p {
+        font-size: 1rem;
+        line-height: 19px;
+    } */
+}
