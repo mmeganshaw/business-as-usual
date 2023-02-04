@@ -535,3 +535,103 @@ body .navbar .navbar-brand img {
         line-height: 19px;
     } */
 }
+
+.services-landing {
+    background-color: #176426;
+    position: relative;
+    padding: 47px 0 80px;
+}
+.services-landing.dark {
+    background-color: #0F4319;
+}
+.services-landing .leaves-left {
+    position: absolute;
+    left: -120px;
+    top: 50%;
+    margin-top: -373.5px;
+}
+.services-landing .leaves-right {
+    position: absolute;
+    right: 0;
+    transform: scaleX(-1);
+    right: -120px;
+    top: 50%;
+    margin-top: -373.5px;
+}
+
+.services-landing h3 {
+    color:#2AB746; 
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.25px;
+    line-height: 28px;
+    margin-bottom: 3px;
+}
+
+.services-landing h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 35px;
+    letter-spacing: 0.4px;
+    line-height: 42px;
+    margin-bottom: 1rem;
+}
+.services-landing h2 span {
+    color: #2AB746;
+}
+
+.services-landing hr {
+    width: 91px;
+    border-top: 1px solid #2AB746;
+
+}
+.services-landing .main-text p {
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    line-height: 21px;
+    color: white;
+    font-weight: 300;
+}
+
+.services-landing .main-text {
+    padding-bottom: 1.5rem;
+}
+
+.services-landing .col-12:not(.main-text) {
+    margin-bottom: 2rem;
+}
+.services-landing .card {
+    background-color: transparent; 
+    border: 0;
+    height: 100% !important;
+}
+.services-landing .card .card-img-top {
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+}
+.services-landing .card .card-body {
+    background: white;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius:26px;
+}
+
+.services-landing .card .card-body .card-title {
+    color: #0A1F0E;
+    font-size: 22px;
+    letter-spacing: 0.25px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+@media (max-width: 991px) {
+    .services-landing .leaves-right, 
+    .services-landing .leaves-left {
+        display: none;
+    }
+    .services-landing .card .card-img-top {
+        height: 250px;
+        object-fit: cover;
+    }
+}
+
