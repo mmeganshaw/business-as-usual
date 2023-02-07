@@ -525,15 +525,6 @@ body .navbar .navbar-brand img {
         font-size: 24px;
         line-height: 35px;
     }
-    /* .homepage-twocol h2 {
-        font-size: 28px;
-        letter-spacing: 0.32px;
-        line-height: 36px;
-    }
-    .homepage-twocol p {
-        font-size: 1rem;
-        line-height: 19px;
-    } */
 }
 
 .services-landing {
@@ -735,4 +726,65 @@ body .navbar .navbar-brand img {
     border-top: 3px solid #2AB746; 
     width: 91px;
     margin: 0.25rem 0 1rem;
+}
+
+
+.careers-four-col {
+    background-color: #176426;
+    padding: 82px 0 108px;
+}
+
+.careers-four-col .main-text h2 {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 0.4px;
+    line-height: 42px;
+}
+.careers-four-col .main-text h2 span {
+    color: #2AB746;
+}
+
+.careers-four-col .main-text hr {
+    width: 91px;
+    border-top-color: #2AB746;
+
+}
+
+.careers-four-col .main-text p {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    line-height: 21px;
+}
+
+.careers-four-col .main-text {
+    padding-bottom: 2rem;
+}
+
+.careers-four-col .cards {
+    background-color: #EDF7F0;
+    padding: 25px 22px 35px 22px;
+    height: 100%;
+    border-radius: 26px;
+}
+
+.careers-four-col .cards h3 {
+    padding-right: 50px;
+    color: #0F4319;
+}
+
+.careers-four-col .cards p {
+    color: #0F4319;
+}
+
+@media (max-width: 991px) {
+    .careers-four-col {
+        padding: 55px 0 70px;
+    }
+    .careers-four-col .cards {
+        padding-bottom: 25px
+    }
+    .careers-four-col .col-lg-3 {
+        margin-bottom: 1rem;
+    }
 }
