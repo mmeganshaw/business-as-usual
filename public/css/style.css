@@ -788,3 +788,136 @@ body .navbar .navbar-brand img {
         margin-bottom: 1rem;
     }
 }
+
+.form {
+    padding: 63px 0 77px;
+}
+.form.contact {
+    background-color: #176426;
+}
+.form.careers {
+    background-color:#0F4319;
+}
+.form h2 {
+    color: white;
+    font-size: 35px;
+    letter-spacing: .4px;
+    line-height: 42px;
+}
+.form .text p {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    line-height: 21px;
+}
+.form hr {
+    width: 91px;
+    border-top: 3px solid #2AB746;
+}
+.form label {
+    font-size: 22px;
+    font-family: 'Noto Serif', serif;
+    letter-spacing: 0.25px;
+    line-height: 42px;
+    color: white;
+    margin-bottom: 0;
+    
+    font-weight:lighter;
+}
+.form input,
+.form textarea {
+    background-color: #d8d8d8;
+    border-radius: 26px;
+    padding: 28px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    margin-bottom: 1rem;
+}
+.form .btn {
+    padding: 8px 40px;
+    margin: 2rem 0 0 0;
+    font-weight: bold;
+}
+.form .btn:hover {
+    background-color:#246A8F !important;
+}
+
+.form .resume label {
+    display: block;
+}
+.form .resume small {
+    color: white;
+}
+
+@media (min-width: 992px) {
+    .form .text {
+        padding-right: 6rem;
+    }
+    .form hr {
+        margin: 1rem 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .form .text {
+        text-align:center;
+    }
+}
+
+.contact-three-col {
+    padding: 44px 0 73px;
+}
+.contact-three-col h2 {
+    color:#0F4319;
+    font-size: 35px;
+    letter-spacing: 0.4px;
+    line-height: 42px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.contact-three-col img {
+    height: 55px; 
+    width: auto;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(347deg) brightness(101%) contrast(101%);
+}
+.contact-three-col hr {
+    width: 91px;
+    border-top: 3px solid white;
+}
+.contact-three-col .phone {
+    background-color: #176426;
+}
+.contact-three-col .arrow {
+    background-color: #0F4319;
+}
+.contact-three-col .mail {
+    background-color:#246A8F;
+}
+.contact-three-col .text-container {
+    border-radius: 26px;
+    padding: 50px;
+}
+.contact-three-col h3 {
+    color: white;
+    font-size: 30px;
+    line-height: 28px;
+    letter-spacing: 0.34px;
+}
+.contact-three-col .mail h3 {
+    font-size: 18px;
+    margin-top: 18px;
+}
+@media (hover:hover) {
+    .contact-three-col a:hover h3 {
+        text-decoration: underline !important;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .contact-three-col .text-container {
+        margin-bottom: 1.5rem;
+    }
+}
