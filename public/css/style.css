@@ -12,6 +12,13 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Noto Serif', serif;
 }
 
+h2 {
+    font-size: 35px;
+    letter-spacing: 0.4px;
+    line-height: 42px;
+    color: #0A1F0F;
+}
+
 p, li, ul, a {
     font-family: 'Roboto', sans-serif;
 }
@@ -919,5 +926,78 @@ body .navbar .navbar-brand img {
 @media (max-width: 991px) {
     .contact-three-col .text-container {
         margin-bottom: 1.5rem;
+    }
+}
+
+.about-main {
+    padding: 35px 0;
+}
+.about-main .top-img {
+    background-image: url('/public/images/about/about-1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 400px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    position: relative; 
+}
+.about-main .top-img::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-image: url('/public/images/about/biz-30-years.png');
+    height: 62px;
+    width: 240px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    bottom: 10%;
+}
+.about-main .bottom-img {
+    background-image: url('/public/images/about/about-2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 10% center;
+    min-height: 700px;
+    width: 100%;
+}
+
+.about-four-col {
+    background-color:#194861;
+    padding: 28px 0 49px;
+}
+.about-four-col h2 {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 26px;
+    letter-spacing: 0.3px;
+    line-height: 55px;
+}
+.about-four-col .text-container {
+    background-color: white;
+    border-radius: 26px;
+    padding: 25px;
+    text-align: center;
+}
+.about-four-col .text-container h3 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+    letter-spacing: 0.27px;
+    text-transform: uppercase;
+    color: #256A8F;
+    margin-bottom: 17px;
+}
+.about-four-col .text-container .btn {
+    background-color: #194861 !important;
+}
+.about-four-col .text-container .btn:hover {
+    background-color: #0A1F0F !important;
+}
+@media (max-width: 991px) {
+    .about-four-col .text-container {
+        margin-bottom: 2rem;
     }
 }
