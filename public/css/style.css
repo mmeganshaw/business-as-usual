@@ -861,6 +861,14 @@ body .navbar .navbar-brand img {
     color: white;
 }
 
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    select,
+    textarea,
+    input {
+      font-size: 16px;
+    }
+  }
+
 @media (min-width: 992px) {
     .form .text {
         padding-right: 6rem;
